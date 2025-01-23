@@ -22,13 +22,31 @@ export default defineConfig({
         start_url: '/',
         icons: [
           {
-            src: '/icons/icon-192x192.png',
+            src: '/icons/printPwa.png',
+            sizes: '144x144',
+            type: 'image/png',
+          },
+          {
+            src: '/icons/printPwa.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/icons/icon-512x512.png',
+            src: '/icons/printPwa.png',
             sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
+        screenshots: [
+          {
+            src: '/icons/printPwa.png',
+            sizes: '1280x720',
+            type: 'image/png',
+            form_factor: 'wide',
+          },
+          {
+            src: '/icons/printPwa.png',
+            sizes: '1080x1920',
             type: 'image/png',
           },
         ],
